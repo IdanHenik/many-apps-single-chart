@@ -1,0 +1,8 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: app25-route
+spec:
+  to:
+    kind: Service
+    name: app25-service
