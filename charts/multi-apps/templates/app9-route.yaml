@@ -1,0 +1,8 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: app9-route
+spec:
+  to:
+    kind: Service
+    name: app9-service
